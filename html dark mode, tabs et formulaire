@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dark mode/css/style.css"> 
+</head>
+<body>
+ 
+    <header>
+        <button id="dark-mode-toggle">Dark Mode</button>
+    </header>
+
+    <main>
+        <h1>bienvenu sur mon site web de test du dark mode</h1>
+        <p>appuyer sur le bouton dark mode et voyez si ca marche 😊.</p>
+    </main>
+
+        <!-- Liste des onglets -->
+        <ul class="tabs">
+            <!-- Onglet 1 avec la classe active par défaut -->
+            <li class="tab tab-content1 tab-active">Choix numero 1</li>
+            <!-- Onglet 2 -->
+            <li class="tab tab-content2">Choix numero 2</li>
+            <!-- Onglet 3 -->
+            <li class="tab tab-content3">Choix numero 3</li>
+        </ul>
+        <!-- Conteneur pour les contenus des onglets -->
+        <div class="content-container">
+            <!-- Contenu 1, visible par défaut -->
+            <div class="content content1 active">Contenu 1</div>
+            <!-- Contenu 2, caché par défaut -->
+            <div class="content content2">Contenu 2</div>
+            <!-- Contenu 3, caché par défaut -->
+            <div class="content content3">Contenu 3</div>
+        </div>
+
+
+        <form id="registrationForm">
+            <div>
+                <label for="username">Pseudo :</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div>
+                <label for="confirmPassword">Vérification Mdp :</label>
+                <input type="password" id="confirmPassword" name="confirmPassword">
+            </div>
+            <div>
+                <label>Question :</label>
+                <input type="radio" id="option1" name="question" value="option1">
+                <label for="option1">Option 1</label>
+                <input type="radio" id="option2" name="question" value="option2">
+                <label for="option2">Option 2</label>
+            </div>
+            <button type="submit">Soumettre</button>
+            <div id="message"></div>
+        </form>
+
+        
+
+        
+
+
+
+
+
+
+
+    <script src="/dark mode/js/app.js"></script>
+</body>
+</html>
