@@ -1,0 +1,81 @@
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* fin ligne dark mode */
+
+/* Style pour la liste des onglets */
+.tabs {
+    display: flex; /* Utilisation de Flexbox pour aligner les onglets */
+    justify-content: space-around; /* Espacement égal entre les onglets */
+}
+
+/* Style pour chaque onglet */
+.tab {
+    padding: 10px; /* Espacement interne des onglets */
+    cursor: pointer; /* Curseur en forme de main pour indiquer que c'est cliquable */
+}
+
+/* Style pour l'onglet actif */
+.tab-active {
+    background-color: #ccc; /* Couleur de fond différente pour l'onglet actif */
+}
+
+/* Conteneur pour les contenus des onglets */
+.content-container {
+    display: flex; /* Utilisation de Flexbox pour aligner les contenus */
+    justify-content: space-between; /* Espacement égal entre les contenus */
+}
+
+/* Style pour chaque contenu */
+.content {
+    display: none; /* Les contenus sont cachés par défaut */
+    width: 30%; /* Largeur des contenus */
+}
+
+/* Style pour le contenu actif */
+.active {
+    display: block; /* Le contenu actif est visible */
+}
+
+
+
+
+* Style de base pour le formulaire */
+form div {
+    margin-bottom: 15px;
+}
+
+/* Style pour les champs valides */
+input.valid {
+    border: 2px solid green;
+}
+
+/* Style pour les champs invalides */
+input.invalid {
+    border: 2px solid red;
+}
+
+/* Style pour les messages */
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}
